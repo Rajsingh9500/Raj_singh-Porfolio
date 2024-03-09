@@ -114,6 +114,9 @@ const skills = [
   {
     title: "Python / Django",
     level: 70,
+  }, {
+    title: "Express js",
+    level: 70,
   },
 
 ];
@@ -265,7 +268,7 @@ const ContactSection = () => {
   return (
     <Section>
       <h2 className="text-3xl md:text-5xl font-bold">Contact me</h2>
-      <div className="mt-8 p-8 rounded-md bg-white bg-opacity-50 w-96 max-w-full">
+      <div className="mt-8 p-8 rounded-md bg-white bg-opacity-50 w-96 mb-5 max-w-full">
         {state.succeeded ? (
           <p className="text-gray-900 text-center">Thanks for your message !</p>
         ) : (
@@ -314,7 +317,7 @@ const ContactSection = () => {
             />
             <button
               disabled={state.submitting}
-              className="bg-indigo-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16 "
+              className="bg-indigo-600 text-white py-4 px-8 rounded-lg font-bold mb-5 text-lg mt-16 "
             >
               Submit
             </button>
