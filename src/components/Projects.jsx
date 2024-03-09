@@ -34,19 +34,19 @@ export const projects = [
   {
     title: "Myntra app",
     url: "https://github.com/Rajsingh9500/Myntra-app",
-    image: "../../public/projects/myntra.jpg",
+    image: "projects/myntra.jpg",
     description: "Myntra ",
   },
   {
     title: "Femprish",
     url: "https://github.com/Rajsingh9500/Femprish-web",
-    image: "../../public/projects/femprish.png",
+    image: "projects/femprish.png",
     description: "For Women enpowerment ",
   },
   {
     title: "Shopping app",
     url: "https://github.com/Rajsingh9500/Shopping_app",
-    image: "../../public/projects/shopping.png",
+    image: "projects/shopping.png",
     description: "Shopping app for shoes",
   }
 
